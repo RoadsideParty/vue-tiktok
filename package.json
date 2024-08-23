@@ -1,10 +1,21 @@
 {
 	"name": "vue-tiktok",
 	"private": false,
+	"main": "./dist/tiktok.umd.js",
+	"author": "psp",
 	"version": "0.0.1",
 	"type": "module",
 	"description": "vue3仿抖音视频上下轮播组件",
-	"main": "./dist/tiktok.umd.js",
+	"keywords": [
+		"tiktok",
+		"抖音",
+		"短视频"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/RoadsideParty/vue-tiktok"
+	},
+	"bugs": "https://github.com/RoadsideParty/vue-tiktok/issues",
 	"scripts": {
 		"dev": "vite",
 		"build": "vue-tsc -b && vite build",

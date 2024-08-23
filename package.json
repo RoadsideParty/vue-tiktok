@@ -2,7 +2,7 @@
 	"name": "vue-tiktok",
 	"author": "psp",
 	"private": false,
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"main": "./dist/tiktok.umd.js",
 	"module": "./dist/tiktok.es.js",
 	"files": [
@@ -23,11 +23,12 @@
 	"bugs": "https://github.com/RoadsideParty/vue-tiktok/issues",
 	"scripts": {
 		"dev": "vite",
-		"build": "vue-tsc -b && vite build",
+		"build": "vite build && vue-tsc -b",
 		"preview": "vite preview"
 	},
 	"dependencies": {
-		"vue": "^3.4.37"
+		"vue": "^3.4.37",
+		"vue-tiktok": "^0.0.6"
 	},
 	"devDependencies": {
 		"@types/node": "^22.5.0",

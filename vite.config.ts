@@ -7,7 +7,7 @@ export default defineConfig({
 	plugins: [vue()],
 	build: {
 		lib: {
-			entry: path.resolve(__dirname, "src/lib/index.ts"),
+			entry: path.resolve(__dirname, "./lib/index.ts"),
 			name: "tiktok",
 			fileName: (format) => `tiktok.${format}.js`,
 		},

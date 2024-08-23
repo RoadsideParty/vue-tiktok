@@ -8,6 +8,9 @@ dependencies:
   vue:
     specifier: ^3.4.37
     version: 3.4.38(typescript@5.5.4)
+  vue-tiktok:
+    specifier: ^0.0.6
+    version: 0.0.6(typescript@5.5.4)
 
 devDependencies:
   '@types/node':
@@ -842,6 +845,14 @@ packages:
   /vscode-uri@3.0.8:
     resolution: {integrity: sha512-AyFQ0EVmsOZOlAnxoFOGOq1SQDWAB7C6aqMGS23svWAllfOaxbuFvcT8D1i8z3Gyn8fraVeZNNmN6e9bxxXkKw==}
     dev: true
+
+  /vue-tiktok@0.0.6(typescript@5.5.4):
+    resolution: {integrity: sha512-w9SLEapdM+4HECJNUAm2JSiJc32OXmJCh+D9pqKf00prh1XUPIM9eDG2eaMIQivUPw6AMyH0KQS7FMWu38G9Gg==}
+    dependencies:
+      vue: 3.4.38(typescript@5.5.4)
+    transitivePeerDependencies:
+      - typescript
+    dev: false
 
   /vue-tsc@2.0.29(typescript@5.5.4):
     resolution: {integrity: sha512-MHhsfyxO3mYShZCGYNziSbc63x7cQ5g9kvijV7dRe1TTXBRLxXyL0FnXWpUF1xII2mJ86mwYpYsUmMwkmerq7Q==}

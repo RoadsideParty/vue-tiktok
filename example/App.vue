@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { tiktok } from "./lib"
+// import { tiktok } from "../lib"
+import { tiktok } from "vue-tiktok"
 </script>
 
 <template>

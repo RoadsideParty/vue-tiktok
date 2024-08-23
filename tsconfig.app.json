@@ -11,8 +11,10 @@
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
-    "noEmit": true,
     "jsx": "preserve",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationDir": "./dist",
 
     /* Linting */
     "strict": true,
@@ -20,5 +22,5 @@
     "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+  "include": ["example/**/*.ts", "example/**/*.tsx", "example/**/*.vue", "lib/**/*.ts", "lib/**/*.tsx", "lib/**/*.vue"]
 }

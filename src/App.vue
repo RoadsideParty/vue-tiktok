@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { tiktok } from "../lib"
+import { tiktok } from "./lib"
 </script>
 
 <template>

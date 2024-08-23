@@ -20,5 +20,5 @@
     "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["example/**/*.ts", "example/**/*.tsx", "example/**/*.vue", "lib/**/*.ts", "lib/**/*.tsx", "lib/**/*.vue"]
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
 }

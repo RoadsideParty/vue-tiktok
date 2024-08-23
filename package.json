@@ -1,15 +1,20 @@
 {
 	"name": "vue-tiktok",
-	"private": false,
-	"main": "./dist/tiktok.umd.js",
 	"author": "psp",
-	"version": "0.0.1",
+	"private": false,
+	"version": "0.0.6",
+	"main": "./dist/tiktok.umd.js",
+	"module": "./dist/tiktok.es.js",
+	"files": [
+		"dist"
+	],
 	"type": "module",
 	"description": "vue3仿抖音视频上下轮播组件",
 	"keywords": [
 		"tiktok",
 		"抖音",
-		"短视频"
+		"短视频",
+		"vue"
 	],
 	"repository": {
 		"type": "git",

@@ -12,9 +12,7 @@
     "isolatedModules": true,
     "moduleDetection": "force",
     "jsx": "preserve",
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    "declarationDir": "./dist",
+    "noEmit": true,
 
     /* Linting */
     "strict": true,

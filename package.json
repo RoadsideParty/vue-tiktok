@@ -2,11 +2,10 @@
 	"name": "vue-tiktok",
 	"author": "psp",
 	"private": false,
-	"version": "0.0.7",
-	"main": "./dist/tiktok.umd.js",
-	"module": "./dist/tiktok.es.js",
+	"version": "0.0.8",
+	"main": "./lib/index.ts",
 	"files": [
-		"dist"
+		"lib"
 	],
 	"type": "module",
 	"description": "vue3仿抖音视频上下轮播组件",
@@ -27,13 +26,12 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
-		"vue": "^3.4.37",
-		"vue-tiktok": "^0.0.6"
+		"sass": "^1.77.8",
+		"vue": "^3.4.37"
 	},
 	"devDependencies": {
 		"@types/node": "^22.5.0",
 		"@vitejs/plugin-vue": "^5.1.2",
-		"sass": "^1.77.8",
 		"typescript": "^5.5.3",
 		"vite": "^5.4.1",
 		"vue-tsc": "^2.0.29"

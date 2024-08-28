@@ -2,8 +2,9 @@
 	"name": "vue-tiktok",
 	"author": "psp",
 	"private": false,
-	"version": "0.0.8",
+	"version": "0.0.10",
 	"main": "./lib/index.ts",
+	"types": "./lib/types/index.d.ts",
 	"files": [
 		"lib"
 	],
@@ -34,7 +35,7 @@
 		"@vitejs/plugin-vue": "^5.1.2",
 		"typescript": "^5.5.3",
 		"vite": "^5.4.1",
-		"vue-tiktok": "^0.0.8",
+		"vue-tiktok": "^0.0.10",
 		"vue-tsc": "^2.0.29"
 	}
 }

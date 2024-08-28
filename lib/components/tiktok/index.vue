@@ -1,15 +1,9 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue"
 
-const props = withDefaults(
-	defineProps<{
-		list: any[]
-		threshold?: number
-	}>(),
-	{
-		threshold: 100,
-	}
-)
+const props = withDefaults(defineProps<Props>(), {
+	threshold: 100,
+})
 const { list, threshold } = props
 
 // 开始的触点

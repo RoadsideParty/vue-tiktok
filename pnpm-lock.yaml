@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^5.4.1
     version: 5.4.2(@types/node@22.5.0)(sass@1.77.8)
   vue-tiktok:
-    specifier: ^0.0.8
-    version: 0.0.8(typescript@5.5.4)
+    specifier: ^0.0.10
+    version: 0.0.10(typescript@5.5.4)
   vue-tsc:
     specifier: ^2.0.29
     version: 2.0.29(typescript@5.5.4)
@@ -829,19 +829,11 @@ packages:
     resolution: {integrity: sha512-AyFQ0EVmsOZOlAnxoFOGOq1SQDWAB7C6aqMGS23svWAllfOaxbuFvcT8D1i8z3Gyn8fraVeZNNmN6e9bxxXkKw==}
     dev: true
 
-  /vue-tiktok@0.0.6(typescript@5.5.4):
-    resolution: {integrity: sha512-w9SLEapdM+4HECJNUAm2JSiJc32OXmJCh+D9pqKf00prh1XUPIM9eDG2eaMIQivUPw6AMyH0KQS7FMWu38G9Gg==}
+  /vue-tiktok@0.0.10(typescript@5.5.4):
+    resolution: {integrity: sha512-4oZsK7O/ZDtTBZzaXX0aqXmd0gtmhE34/KJDgz0u65famGSnH2P/LHhQ0/5waUGLTpiPcSgpmjkZmbSEu6G8vg==}
     dependencies:
+      sass: 1.77.8
       vue: 3.4.38(typescript@5.5.4)
-    transitivePeerDependencies:
-      - typescript
-    dev: true
-
-  /vue-tiktok@0.0.8(typescript@5.5.4):
-    resolution: {integrity: sha512-qC/tYOWevKaJSmp5kClwD+3pa32Y+YcnaPz/n52hILH0h4fgFlekSHQOww5PyqkdZChyadTyoYlNSHU26BKEWQ==}
-    dependencies:
-      vue: 3.4.38(typescript@5.5.4)
-      vue-tiktok: 0.0.6(typescript@5.5.4)
     transitivePeerDependencies:
       - typescript
     dev: true
